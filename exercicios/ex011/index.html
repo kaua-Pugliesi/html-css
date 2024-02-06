@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>tente abrir esses site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+        
+    <picture>
+
+        <source media="(max-width:750px )" srcset="imagens/fotop.png" type="image/png">
+        
+        <source media="(max-width:1050px )" srcset="imagens/foto.png" type="image/png">
+        
+        <img src="imagens/fotog.png" alt="imagem fléxivel">
+    
+    </picture>
+    <h1>Reproduzindo um áudio.</h1>
+    <p>Vamos aprender a reproduzir áudios em HTML5 </p>
+    <audio src="midia/happy-mistake.mp3"controls autoplay></audio>
+    <!--mp3 wav ogg-->
+
+    <audio autoplay controls>
+
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <p>caso o som não tenha sido reproduzido, seu navegador não é compativel com nenhum dos formatos estabelecidos, por favor clique <a href="midia/guanacast-33.mp3"><strong>AQUI</strong></a> para baixar</p>
+
+    </audio>
+
+    <p>caso o som não tenha sido reproduzido, seu navegador não é compativel com nenhum dos formatos estabelecidos, por favor clique <a href="midia/guanacast-33.mp3"><strong>AQUI</strong></a> para baixar o arquivo mp3</p>
+
+    <!--para o caso de navegadores que são compatives com apenas um tipo de midia de reprodução, tem que colocar o som em um formatador-->
+</body>
+</html>

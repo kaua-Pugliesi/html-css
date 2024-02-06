@@ -1,0 +1,37 @@
+@charset "UTF-8";
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    text-align: justify;
+    color: #D97B59;
+
+}
+
+body{
+    background-image:linear-gradient(to right,#F2D7B6,#A68C6D);
+}
+
+main{background-color: white;
+    width: 600px; /* para que nn utilize toda a largura do site */
+    padding: 10px; /*acochoiamento para dar um espacinho */
+
+    box-shadow: 5px 5px 15px #47231f;
+
+    border-radius: 10px; /*deixa as bordinhas arredondadas*/
+
+    margin: auto; /*centraliza independente da variação do tamanho da tela */
+    
+}
+
+h2{
+    color: #8C3D35;
+    
+}
+
+h1{
+    color: #D97B59;
+    text-align: center;
+    text-shadow: 1px 1px 2px #241210;
+}
