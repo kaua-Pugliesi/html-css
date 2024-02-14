@@ -1,0 +1,97 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../Área de Trabalho/projeto"
+		},
+		{
+			"path": "K:/Downloads lindos/one"
+		},
+		{
+			"path": "../ex002"
+		},
+		{
+			"path": "../ex003"
+		},
+		{
+			"path": "../ex004"
+		},
+		{
+			"path": "../ex005"
+		},
+		{
+			"path": "../ex006"
+		},
+		{
+			"path": "../ex007"
+		},
+		{
+			"path": "../ex008"
+		},
+		{
+			"path": "../ex009"
+		},
+		{
+			"path": "../ex010"
+		},
+		{
+			"path": "../desafio n05"
+		},
+		{
+			"path": "../desafio n06"
+		},
+		{
+			"path": "../ex011"
+		},
+		{
+			"path": "../ex012"
+		},
+		{
+			"path": "../Desafio n09"
+		},
+		{
+			"path": "../ex013"
+		},
+		{
+			"path": "../ex014-"
+		},
+		{
+			"path": "../ex015"
+		},
+		{
+			"path": "../ex016"
+		},
+		{
+			"path": "../ex0017"
+		},
+		{
+			"path": "../ex018"
+		},
+		{
+			"path": "../ex019"
+		},
+		{
+			"path": "../ex020"
+		},
+		{
+			"path": "../ex021"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.autoSave": "afterDelay",
+		"explorer.compactFolders": false,
+		"workbench.editor.enablePreview": false,
+		"workbench.iconTheme": "material-icon-theme",
+		"workbench.colorTheme": "Omni",
+		"terminal.integrated.fontSize": 16,
+		"terminal.integrated.profiles.windows": {
+			"Git Bash": {
+				"source": "Git Bash"
+			}
+		},
+		"terminal.integrated.defaultProfile.windows": "Git Bash",
+		"liveServer.settings.multiRootWorkspaceName": "ex021"
+	}
+}
