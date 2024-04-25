@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Exemplo de Form</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="inum"> Numero 1</label>
+            <input type="number" name="numero" id="inum" min="0" max="50" required oninput="isoma.innerHTML= Number(inum.value) + Number(inum2.value)">
+        </p>
+        <p>
+            <label for="inum2"> Numero 2</label>
+            <input type="number" name="numero2" id="inum2" min="0" max="50" required oninput="isoma.innerHTML= Number(inum.value) + Number(inum2.value)">
+        </p>
+        <p>
+            <label for="isoma"> Soma</label>
+            <output id="isoma" name="soma"> 0</output>
+        </p>
+        <p>
+            <input type="submit" value="enviar" >
+            <input type="reset" value="apagar">
+         </p>
+        
+    </form>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="ival">5</label>
+            <input type="range" min="0" max="5" required oninput="ival.innerHTML = ">
+            out
+        </p>
+    </form>
+
+    
+</body>
+</html>
