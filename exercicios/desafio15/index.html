@@ -18,20 +18,25 @@
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta, e poder configuar como quiser o seu ambiente.</p>
                 <form action="cadastro.php" method="post" autocomplete="on">
-                    <p>
-                         <label for="iusu"></label></p>
-                         <span id="user" class="material-symbols-outlined">person</span>
-                         <input type="email" name="usu" id="iusu" required minlength="5" maxlength="15" placeholder="Seu email">
-                
-                     <p>
-                         <p><label for="isen"></label></p>
-                         <span id="key" class="material-symbols-outlined">vpn_key </span>
-                         <input type="password" name="sen" id="isen" required minlength="8"  placeholder="Sua senha">
-                     </p>
-                     <p>
-                         <input type="submit" value="Enviar">
-                         <input type="reset" value="Limpar">
-                     </p>
+                    <div class="campo" >
+                        <i id="user" class="material-symbols-outlined">person</i>
+
+                        <label for="iusu">login</label></p>
+                       
+                        <input type="email" name="usu" id="iusu" required minlength="5" maxlength="15" placeholder="Seu email">
+                    </div>
+                    <div class="campo">
+                        <i id="key" class="material-symbols-outlined">vpn_key </i>
+                        
+                        <label for="isen">senha</label></p>
+                        
+                        <input type="password" name="sen" id="isen" required minlength="8"  placeholder="Sua senha">
+                       
+                    </div>
+                    
+                    <input type="submit" value="Enviar">
+
+                    <a class="botao" href="#">Esqueci a senha</a>
                 </form>
             </div>
             
